@@ -19,7 +19,7 @@ body {
 /* Video Container */
 .video-container {
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 45px;
+  border-radius: 39px;
   overflow: hidden;
   width: 90%;
   max-width: 800px;
@@ -40,7 +40,7 @@ body {
 
 .video-wrapper {
   width: 100%;
-  padding-top: 75%; /* Mengurangi tinggi kontainer agar lebih pendek */
+  padding-top: 50%; /* Mengurangi tinggi kontainer agar lebih pendek */
   position: relative;
   overflow: hidden;
   background: black; /* Latar belakang hitam untuk area kosong */
