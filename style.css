@@ -6,10 +6,12 @@
 }
 
 .videoTitle{
-  font-family: "Reem Kufi Fun", serif;
+  font-family: "Cairo Play", serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: <weight>;
   font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 body {
@@ -24,12 +26,15 @@ body {
 }
 
 
-.reem-kufi-fun-<uniquifier> {
-  font-family: "Reem Kufi Fun", serif;
+.cairo-play-<uniquifier> {
+  font-family: "Cairo Play", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
+
 
 /* Video Container */
 .video-container {
