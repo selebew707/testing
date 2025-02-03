@@ -16,6 +16,14 @@ body {
   color: white;
 }
 
+
+.reem-kufi-fun-<uniquifier> {
+  font-family: "Reem Kufi Fun", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* Video Container */
 .video-container {
   background: rgba(0, 0, 0, 0.7);
