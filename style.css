@@ -16,12 +16,7 @@ body {
   color: white;
 }
 
-.lexend-videoTitle {
-  font-family: "Lexend", serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
+
 /* Video Container */
 .video-container {
   background: rgba(0, 0, 0, 0.7);
