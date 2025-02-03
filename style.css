@@ -39,13 +39,19 @@ body {
 }
 
 .video-wrapper {
+  width: 100%;
+  padding-top: 100%; /* Menjadikan kontainer berbentuk kotak */
   position: relative;
+  overflow: hidden;
 }
 
 video {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover; /* Memastikan video menutupi seluruh area */
 }
 
 /* WhatsApp Button */
