@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Lexend', serif;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   height: 100vh; /* Full height viewport */
   overflow: hidden; /* No scrolling */
@@ -16,16 +16,12 @@ body {
   color: white;
 }
 
-
 .lexend-videoTitle {
   font-family: "Lexend", serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
-
-
-
 /* Video Container */
 .video-container {
   background: rgba(0, 0, 0, 0.7);
