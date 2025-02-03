@@ -17,14 +17,13 @@ body {
 }
 
 
-.cairo-play-<videoTitle> {
-  font-family: "Cairo Play", serif;
+.lexend-<videoTitle> {
+  font-family: "Lexend", serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
 }
+
 
 
 /* Video Container */
