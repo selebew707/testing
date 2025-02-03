@@ -17,7 +17,7 @@ body {
 }
 
 
-.cairo-play-videoTitle {
+.cairo-play-<videoTitle> {
   font-family: "Cairo Play", serif;
   font-optical-sizing: auto;
   font-weight: bold;
