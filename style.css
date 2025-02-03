@@ -40,10 +40,11 @@ body {
 
 .video-wrapper {
   width: 100%;
-  padding-top: 100%; /* Membuat kontainer berbentuk kotak */
+  padding-top: 75%; /* Mengurangi tinggi kontainer agar lebih pendek */
   position: relative;
   overflow: hidden;
   background: black; /* Latar belakang hitam untuk area kosong */
+  max-height: 500px; /* Batasi tinggi maksimal agar tidak terlalu besar */
 }
 
 video {
