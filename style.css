@@ -17,10 +17,10 @@ body {
 }
 
 
-.lexend-<videoTitle> {
+.lexend-videoTitle {
   font-family: "Lexend", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: bold;
   font-style: normal;
 }
 
