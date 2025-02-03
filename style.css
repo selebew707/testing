@@ -21,7 +21,7 @@ body {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 39px;
   overflow: hidden;
-  width:75%;
+  width: 90%;
   max-width: 800px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .video-wrapper {
-  width: 100%;
+  width: 85%;
   padding-top: 50%; /* Mengurangi tinggi kontainer agar lebih pendek */
   position: relative;
   overflow: hidden;
