@@ -8,248 +8,101 @@
 <meta name="keywords" content="Simontok, DoodStream, Vide">
 <meta name="author" content="DOODSTREAM PRO MILD">
 <meta name="robots" content="index, follow">
-
-<meta name="juicyads-site-verification" content="0bcc416897453611f6965dc212c962ad">
-   
 <link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta name="monetag" content="14092ddde984f4e01dfe6b12e548f23f">
+<title>DOODSTREAM PRO MILD</title>
 
-   <meta name="monetag" content="14092ddde984f4e01dfe6b12e548f23f">
-   
-  <title>DOODSTREAM PRO MILD</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    overflow: hidden;
+    background: #000;
+    box-shadow: none;
+    border: none;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #000;
+    display: block;
+  }
+</style>
 
-  <!-- Bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    /* General Reset and Body Styling */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      background: linear-gradient(50deg, #F9F4FB, #F9F4FB); /* Light gradient */
-      font-family: 'Roboto', sans-serif; /* Modern and premium font */
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    /* Header Styling */
-    header {
-      background: linear-gradient(170deg, #977DFF, #FFCCF2); /* Vibrant gradient */
-      color: white;
-      padding: 5px 5px;
-      text-align: center;
-    }
-
-    header p {
-      font-size: 1rem;
-      opacity: 0.85;
-    }
-    /* Main Content Styling */
-    main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-      text-align: center;
-    }
-    h2 {
-      font-size: 2rem;
-      color: #444;
-      margin-bottom: 20px;
-    }
-    .video-container {
-      display: inline-block;
-      background-color: #ffffff;
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      border: 2px solid #f0f8ff; /* Soft border to match background */
-    }
-    video {
-      display: block;
-      width: 100%; /* Video will scale automatically to fit the container */
-      height: auto; /* Maintain original video proportions */
-      border-radius: 18px; /* Match container border-radius */
-    }
-    /* Button Styling */
-    .btn-primary {
-      margin-top: 30px;
-      background: linear-gradient(135deg, #B772FF, #E682C9);
-      color: white;
-      padding: 12px 25px;
-      font-size: 1rem;
-      font-weight: bold;
-      border-radius: 50px;
-      border: none;
-      box-shadow: 0 5px 15px rgba(66, 165, 245, 0.4);
-      transition: all 0.3s ease-in-out;
-    }
-    .btn-primary:hover {
-      background: linear-gradient(135deg, #1e88e5, #42a5f5);
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(66, 165, 245, 0.6);
-    }
-    
-          .wa-button2 {
-      background:linear-gradient(10deg, #977DFF, #FFCCF2);
-      color: white;
-      font-size: 16px;
-      padding: 10px 2px;
-      font-weight: bold;
-      border-radius: 50px;
-      text-decoration: none;
-      text-align: center;
-      box-shadow: 0 5px 15px rgba(151, 125, 255, 0.4);
-      transition: background-color 0.3s ease;
-    }
-    .wa-button:hover {
-      background-color: #;
-      box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
-    }
-    
-    /* WhatsApp Button Styling */
-    .wa-button {
-      background:linear-gradient(10deg, #F9F4FB, #F9F4FB);
-      color: #F9F4FB;
-      font-size: 16px;
-      padding: 12px 5px;
-      font-weight: bold;
-      border-radius: 50px;
-      text-decoration: none;
-      text-align: center;
-      transition: background-color 0.3s ease;
-    }
-    .wa-button:hover {
-      background-color: #;
-      box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
-    }
-    
-    
-    /* Footer Styling */
-    footer {
-      background: linear-gradient(135deg, #977DFF, #FFCCF2);
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
-    }
-    footer p {
-      font-size: 0.9rem;
-      opacity: 0.9;
-    }
-    .small-image {
-  position: center;
-  top: 0px; /* Jarak dari atas */
-  left: 0px; /* Jarak dari kiri */
-  width: 200px; /* Lebar kotak gambar */
-  height: 100px; /* Tinggi kotak gambar */
-  
-}
-
-.small-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Agar gambar menyesuaikan ukuran kotak */
-}
-  </style>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-   <!-- popunder -->
 </head>
 <body>
-  <!-- Header -->
-  <header>
-  <div class="small-image">
-    <img src="IMG_5730.png" alt="Gambar kecil">
+
+<main>
+  <div class="video-container d-none" id="videoContainer">
+    <video 
+      id="videoPlayer" 
+      controls 
+      controlsList="nodownload noremoteplayback" 
+      disablePictureInPicture>
+      <source id="videoSource" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
-</header>
-  </header>
-
-  <!-- Main Content -->
-  <main>
-    <h2 id="videoTitle">Loading...</h2>
-    <div class="video-container d-none" id="videoContainer">
-      <video 
-  id="videoPlayer" 
-  controls 
-  controlsList="nodownload noremoteplayback" 
-  disablePictureInPicture>
-  <source id="videoSource" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-    </div>
-  </main>
-
-<div style="position: absolute; top: 95px; right: 20px;">
-  <a 
-    href="https://whatsapp.com/channel/0029VamR5tRDp2QIMDh60E3P" 
-    class="wa-button" 
-    target="_blank">
-    JOIN CHANNEL WA
-  </a>
-</div>
-
-<div class="noise-overlay"></div>
-
-<div style="position: absolute; top: 96px; right: 23px;">
-  <a 
-    href="https://whatsapp.com/channel/0029VamR5tRDp2QIMDh60E3P" 
-    class="wa-button2" 
-    target="_blank2">
-    JOIN CHANNEL WA
-  </a>
-</div>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Doodstream Pro Mild. All rights reserved.</p>
-  </footer>
-
-  <script>
-    // Ambil parameter query dari URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const videoId = urlParams.get('v'); // Parameter 'v'
-
-    if (videoId) {
-      // Fetch JSON
-      fetch('https://doodsspro.my.id/Video.json')
-        .then(response => response.json())
-        .then(data => {
-          // Cari video berdasarkan ID
-          const videoData = data.find(video => video.id === videoId);
-
-          if (videoData) {
-            // Tampilkan judul dan video
-            document.getElementById('videoTitle').textContent = videoData.Judul;
-            document.getElementById('videoSource').src = videoData.Url;
-            document.getElementById('videoContainer').classList.remove('d-none'); // Tampilkan video container
-            document.getElementById('videoPlayer').load();
-          } else {
-            document.getElementById('videoTitle').textContent = 'Video not found';
-          }
-        })
-        .catch(error => {
-          console.error('Error fetching JSON:', error);
-          document.getElementById('videoTitle').textContent = 'Failed to load video data';
-        });
-    } else {
-      document.getElementById('videoTitle').textContent = 'tobatlah wahai anak muda';
-    }
-  </script>
+</main>
 
 <script>
-  // Disable klik kanan di video
+  // Ambil parameter query dari URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const videoId = urlParams.get('v'); // Parameter 'v'
+
+  if (videoId) {
+    // Fetch JSON
+    fetch('https://doodsspro.my.id/Video.json')
+      .then(response => response.json())
+      .then(data => {
+        // Cari video berdasarkan ID
+        const videoData = data.find(video => video.id === videoId);
+
+        if (videoData) {
+          // Setel video
+          document.getElementById('videoSource').src = videoData.Url;
+          document.getElementById('videoContainer').classList.remove('d-none');
+          document.getElementById('videoPlayer').load();
+        } else {
+          alert('Video tidak ditemukan');
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching JSON:', error);
+        alert('Gagal memuat data video');
+      });
+  } else {
+    alert('Parameter video (v) tidak ditemukan');
+  }
+
+  // Nonaktifkan klik kanan di video
   const videoPlayer = document.getElementById('videoPlayer');
   videoPlayer.addEventListener('contextmenu', function(e) {
     e.preventDefault(); 
   });
 </script>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
